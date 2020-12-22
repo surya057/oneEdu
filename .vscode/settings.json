@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2df3a8ae-b368-4a99-baca-76e8d81860d9/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/oneEduTest",
+    "appService.deploySubpath": "."
+}

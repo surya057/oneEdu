@@ -1,0 +1,43 @@
+
+.main_wrapper{
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 5%;
+    background-color: #fff;
+}
+
+.Login {
+    padding: 60px 0;
+  }
+
+  .Login .link{
+      color:white;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+
+@media all and (max-width: 479px) {
+    .main_wrapper{
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    .main_wrapper{
+        width: 40%;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width:1023px){
+    .main_wrapper{
+        width: 50%;
+    }
+
+  }
